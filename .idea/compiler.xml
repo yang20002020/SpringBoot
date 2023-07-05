@@ -9,6 +9,7 @@
         <module name="springboot_001_quickstart" />
         <module name="springboot_004_read_data" />
         <module name="springboot_003_base_config" />
+        <module name="springboot_006_profile" />
         <module name="springboot_002_quickstart" />
         <module name="springboot_005_profile" />
       </profile>
@@ -19,6 +20,7 @@
       <module name="springboot_003_base_config" target="1.8" />
       <module name="springboot_004_read_data" target="1.8" />
       <module name="springboot_005_profile" target="1.8" />
+      <module name="springboot_006_profile" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -28,6 +30,7 @@
       <module name="springboot_003_base_config" options="-parameters" />
       <module name="springboot_004_read_data" options="-parameters" />
       <module name="springboot_005_profile" options="-parameters" />
+      <module name="springboot_006_profile" options="-parameters" />
     </option>
   </component>
 </project>
