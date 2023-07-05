@@ -1,0 +1,26 @@
+#设置启用的环境
+spring:
+  profiles:
+    active: test
+
+---
+#开发
+spring:
+  config:
+    activate:
+      on-profile: dev
+server:
+  port: 8080
+---
+#生产
+spring:
+  profiles: pro
+server:
+  port: 8081
+---
+#测试
+spring:
+  profiles: test
+server:
+  port: 8082
+---
