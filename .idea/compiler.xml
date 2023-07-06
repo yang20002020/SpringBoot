@@ -10,6 +10,7 @@
         <module name="springboot_010_test" />
         <module name="springboot_003_base_config" />
         <module name="springboot_005_profile" />
+        <module name="springboot_011_test" />
         <module name="springboot_001_quickstart" />
         <module name="springboot_004_read_data" />
         <module name="springboot_006_profile" />
@@ -30,6 +31,7 @@
       <module name="springboot_009_config_file" target="1.8" />
       <module name="springboot_010" target="1.8" />
       <module name="springboot_010_test" target="1.8" />
+      <module name="springboot_011_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -45,6 +47,7 @@
       <module name="springboot_009_config_file" options="-parameters" />
       <module name="springboot_010" options="-parameters" />
       <module name="springboot_010_test" options="-parameters" />
+      <module name="springboot_011_test" options="-parameters" />
     </option>
   </component>
 </project>
