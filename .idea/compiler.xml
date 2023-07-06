@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot_009_config_file" />
+        <module name="springboot_010_test" />
         <module name="springboot_003_base_config" />
         <module name="springboot_005_profile" />
         <module name="springboot_001_quickstart" />
@@ -27,6 +28,8 @@
       <module name="springboot_007_maven_and_boot_profile" target="1.8" />
       <module name="springboot_008_maven_and_boot_profile" target="1.8" />
       <module name="springboot_009_config_file" target="1.8" />
+      <module name="springboot_010" target="1.8" />
+      <module name="springboot_010_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -40,6 +43,8 @@
       <module name="springboot_007_maven_and_boot_profile" options="-parameters" />
       <module name="springboot_008_maven_and_boot_profile" options="-parameters" />
       <module name="springboot_009_config_file" options="-parameters" />
+      <module name="springboot_010" options="-parameters" />
+      <module name="springboot_010_test" options="-parameters" />
     </option>
   </component>
 </project>

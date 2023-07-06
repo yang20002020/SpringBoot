@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot_007_maven_and_boot_profile/springboot_007_maven_and_boot_profile.iml" filepath="$PROJECT_DIR$/springboot_007_maven_and_boot_profile/springboot_007_maven_and_boot_profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_008_maven_and_boot_profile/springboot_008_maven_and_boot_profile.iml" filepath="$PROJECT_DIR$/springboot_008_maven_and_boot_profile/springboot_008_maven_and_boot_profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_009_config_file/springboot_009_config_file.iml" filepath="$PROJECT_DIR$/springboot_009_config_file/springboot_009_config_file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_010_test/springboot_010_test.iml" filepath="$PROJECT_DIR$/springboot_010_test/springboot_010_test.iml" />
     </modules>
   </component>
 </project>
