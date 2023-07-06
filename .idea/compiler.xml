@@ -17,6 +17,7 @@
         <module name="springboot_007_maven_and_boot_profile" />
         <module name="springboot_002_quickstart" />
         <module name="springboot_008_maven_and_boot_profile" />
+        <module name="springboot_012_mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +33,7 @@
       <module name="springboot_010" target="1.8" />
       <module name="springboot_010_test" target="1.8" />
       <module name="springboot_011_test" target="1.8" />
+      <module name="springboot_012_mybatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -48,6 +50,7 @@
       <module name="springboot_010" options="-parameters" />
       <module name="springboot_010_test" options="-parameters" />
       <module name="springboot_011_test" options="-parameters" />
+      <module name="springboot_012_mybatis" options="-parameters" />
     </option>
   </component>
 </project>
