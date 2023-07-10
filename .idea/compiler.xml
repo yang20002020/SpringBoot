@@ -13,6 +13,7 @@
         <module name="springboot_001_quickstart" />
         <module name="springboot_007_maven_and_boot_profile" />
         <module name="springboot_008_maven_and_boot_profile" />
+        <module name="springboot_002_01_quickstartalibaba" />
         <module name="springboot_011_test" />
         <module name="springboot_004_read_data" />
         <module name="springboot_013_mybatis" />
@@ -24,6 +25,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot_001_quickstart" target="1.8" />
+      <module name="springboot_002_01_quickstartalibaba" target="1.8" />
       <module name="springboot_002_quickstart" target="1.8" />
       <module name="springboot_003_base_config" target="1.8" />
       <module name="springboot_004_read_data" target="1.8" />
