@@ -3,21 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot.iml" filepath="$PROJECT_DIR$/springboot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_001_quickstart/springboot_001_quickstart.iml" filepath="$PROJECT_DIR$/springboot_001_quickstart/springboot_001_quickstart.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_002_01_quickstartalibaba/springboot_002_01_quickstartalibaba.iml" filepath="$PROJECT_DIR$/springboot_002_01_quickstartalibaba/springboot_002_01_quickstartalibaba.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_002_quickstart/springboot_002_quickstart.iml" filepath="$PROJECT_DIR$/springboot_002_quickstart/springboot_002_quickstart.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_003_base_config/springboot_003_base_config.iml" filepath="$PROJECT_DIR$/springboot_003_base_config/springboot_003_base_config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_004_read_data/springboot_004_read_data.iml" filepath="$PROJECT_DIR$/springboot_004_read_data/springboot_004_read_data.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_005_profile/springboot_005_profile.iml" filepath="$PROJECT_DIR$/springboot_005_profile/springboot_005_profile.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_006_profile/springboot_006_profile.iml" filepath="$PROJECT_DIR$/springboot_006_profile/springboot_006_profile.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_007_maven_and_boot_profile/springboot_007_maven_and_boot_profile.iml" filepath="$PROJECT_DIR$/springboot_007_maven_and_boot_profile/springboot_007_maven_and_boot_profile.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_008_maven_and_boot_profile/springboot_008_maven_and_boot_profile.iml" filepath="$PROJECT_DIR$/springboot_008_maven_and_boot_profile/springboot_008_maven_and_boot_profile.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_009_config_file/springboot_009_config_file.iml" filepath="$PROJECT_DIR$/springboot_009_config_file/springboot_009_config_file.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_010_test/springboot_010_test.iml" filepath="$PROJECT_DIR$/springboot_010_test/springboot_010_test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_011_test/springboot_011_test.iml" filepath="$PROJECT_DIR$/springboot_011_test/springboot_011_test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_012_mybatis/springboot_012_mybatis.iml" filepath="$PROJECT_DIR$/springboot_012_mybatis/springboot_012_mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_013_mybatis/springboot_013_mybatis.iml" filepath="$PROJECT_DIR$/springboot_013_mybatis/springboot_013_mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot_014_ssm/springboot_014_ssm.iml" filepath="$PROJECT_DIR$/springboot_014_ssm/springboot_014_ssm.iml" />
     </modules>
   </component>
 </project>

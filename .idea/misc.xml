@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springboot_002_02_quickstart" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -18,6 +22,7 @@
         <option value="$PROJECT_DIR$/springboot_013_mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_014_ssm/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_002_01_quickstartalibaba/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_002_02_quickstart/pom.xml" />
       </list>
     </option>
   </component>
