@@ -19,6 +19,15 @@ public class BookController {
     @Value("${enterprise.subject[0]}")
     private String subject_00;
 
+    @Value("${center.dataDir}")
+    private  String center_0;
+
+    @Value("${lesson1}")
+    private  String lesson1;
+
+    @Value("${lesson2}")
+    private String lesson2;
+
     //使用Environment封装全配置数据
     @Autowired
     private Environment environment;
@@ -32,6 +41,9 @@ public class BookController {
         System.out.println(lesson);
         System.out.println(port);
         System.out.println(subject_00);
+        System.out.println(center_0);
+        System.out.println(lesson1);
+        System.out.println(lesson2);
         System.out.println("--------------------");
         System.out.println(environment.getProperty("lesson"));
         System.out.println(environment.getProperty("server.port"));

@@ -11,3 +11,13 @@ enterprise:
     - Java
     - 前端
     - 大数据
+# 在配置文件中可以使用属性名引用方式引用属性
+baseDir : /user/local/fire
+center:
+  dataDir: ${baseDir}/data
+
+# 属性值中如果出现转移字符，需要使用双引号包裹
+lesson1:
+  "Spring\tbook\nlesson"
+lesson2:
+  Spring\tbook\nlesson
