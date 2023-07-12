@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.fuyu</groupId>
-    <artifactId>springboot_003_base_config</artifactId>
+    <artifactId>springboot_003_01_base_config</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot_003_base_config</name>
-    <description>springboot_003_base_config</description>
+    <name>springboot_003_01_base_config</name>
+    <description>springboot_003_01_base_config</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
