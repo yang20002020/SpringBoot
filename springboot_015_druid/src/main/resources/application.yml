@@ -1,0 +1,18 @@
+# \u65B9\u6CD5\u4E00
+#spring:
+#  datasource:
+#     driver-class-name: com.mysql.cj.jdbc.Driver
+#     url: jdbc:mysql://localhost:3306/ssm_db
+#     username: root
+#     password: fendou2017
+#     type: com.alibaba.druid.pool.DruidDataSource
+
+
+#\u65B9\u6CD5\u4E8C
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/ssm_db
+      username: root
+      password: fendou2017
