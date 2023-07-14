@@ -1,5 +1,7 @@
 package com.fuyu.dao;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.fuyu.domain.Book;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,5 +43,16 @@ public class BookDaoTest {
     void testGetAll(){
         List<Book> books = bookDao.selectList(null);
         System.out.println(books);
+    }
+    //分页
+    @Test
+    void testGetPage(){
+        IPage page = new Page(1, 5);
+        bookDao.selectPage(page,null);
+        System.out.println(page.getCurrent());
+        System.out.println(page.getSize());
+        System.out.println(page.getTotal());
+        System.out.println(page.getPages());
+        System.out.println(page.getRecords());
     }
 }
