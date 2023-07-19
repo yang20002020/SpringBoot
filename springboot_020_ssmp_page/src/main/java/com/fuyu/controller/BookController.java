@@ -48,10 +48,28 @@ public class BookController {
         return new R(true, bookService.getById(id));
     }
 
-    @GetMapping("{currentPage}/{pageSize}")
-    public R getPage(@PathVariable int currentPage, @PathVariable int pageSize) {
+//    @GetMapping("{currentPage}/{pageSize}")
+//    public R getPage(@PathVariable int currentPage, @PathVariable int pageSize) {
+//        IPage<Book> page = bookService.getPage(currentPage, pageSize);
+//        //如果当前页码数大于总页码数，那么重新执行查询操作，使用最大页码作为当前页码数
+//        if(currentPage>page.getPages())
+//        {
+//            page= bookService.getPage((int)page.getPages(), pageSize);
+//        }
+//        return new R(true, page);
+//    }
 
-        return new R(true, bookService.getPage(currentPage, pageSize));
+    @GetMapping("{currentPage}/{pageSize}")
+    public R getPage(@PathVariable int currentPage, @PathVariable int pageSize,Book book) {
+
+        System.out.println("参数book====>"+book);
+        IPage<Book> page = bookService.getPage(currentPage, pageSize,book);
+        //如果当前页码数大于总页码数，那么重新执行查询操作，使用最大页码作为当前页码数
+        if(currentPage>page.getPages())
+        {
+            page= bookService.getPage((int)page.getPages(), pageSize,book);
+        }
+        return new R(true, page);
     }
 
 
