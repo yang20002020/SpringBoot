@@ -1,0 +1,12 @@
+com\fuyu\service\impl\BookServiceImpl2.class
+com\fuyu\controller\BookController.class
+com\fuyu\domain\Book.class
+com\fuyu\service\BookService.class
+com\fuyu\service\IBookService.class
+com\fuyu\dao\BookDao.class
+com\fuyu\config\MPConfig.class
+com\fuyu\controller\utils\ProjectExceptionAdvice.class
+com\fuyu\controller\utils\R.class
+com\fuyu\controller\BookController2.class
+com\fuyu\service\impl\BookServiceImpl.class
+com\fuyu\SsmpApplication.class
