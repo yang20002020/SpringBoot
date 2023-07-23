@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: pro
+    group:
+      "dev": devMVC,devDB
+      "pro": proDB,proMVC
