@@ -1,0 +1,26 @@
+2023-07-24 14:47:59.874  INFO 9920 --- [main] c.i.Springboot0026ProfileApplication     : Starting Springboot0026ProfileApplication using Java 1.8.0_371 on DESKTOP-0PPM4QP with PID 9920 (D:\java\SpringBoot\springboot_026_log\target\classes started by 26286 in D:\java\SpringBoot)
+2023-07-24 14:47:59.877  INFO 9920 --- [main] c.i.Springboot0026ProfileApplication     : No active profile set, falling back to default profiles: default
+2023-07-24 14:48:00.954  INFO 9920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-24 14:48:00.966  INFO 9920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24 14:48:00.967  INFO 9920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-07-24 14:48:01.072  INFO 9920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24 14:48:01.072  INFO 9920 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1143 ms
+2023-07-24 14:48:01.521  INFO 9920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-24 14:48:01.530  INFO 9920 --- [main] c.i.Springboot0026ProfileApplication     : Started Springboot0026ProfileApplication in 2.22 seconds (JVM running for 4.357)
+2023-07-24 14:48:01.532  INFO 9920 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-07-24 14:48:01.534  INFO 9920 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-07-24 14:55:09.931  INFO 11496 --- [main] c.i.Springboot0026ProfileApplication     : Starting Springboot0026ProfileApplication using Java 1.8.0_371 on DESKTOP-0PPM4QP with PID 11496 (D:\java\SpringBoot\springboot_026_log\target\classes started by 26286 in D:\java\SpringBoot)
+2023-07-24 14:55:09.933  INFO 11496 --- [main] c.i.Springboot0026ProfileApplication     : No active profile set, falling back to default profiles: default
+2023-07-24 14:55:10.967  INFO 11496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-24 14:55:10.980  INFO 11496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-24 14:55:10.981  INFO 11496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-07-24 14:55:11.071  INFO 11496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-24 14:55:11.072  INFO 11496 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1088 ms
+2023-07-24 14:55:11.474  INFO 11496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-24 14:55:11.484  INFO 11496 --- [main] c.i.Springboot0026ProfileApplication     : Started Springboot0026ProfileApplication in 2.108 seconds (JVM running for 4.215)
+2023-07-24 14:55:11.486  INFO 11496 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-07-24 14:55:11.488  INFO 11496 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-07-24 14:55:56.433  INFO 11496 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-24 14:55:56.434  INFO 11496 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-24 14:55:56.435  INFO 11496 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-24 14:56:09.149  INFO 11496 --- [http-nio-8080-exec-3] com.itheima.controller.BookController    : info...

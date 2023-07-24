@@ -8,3 +8,9 @@ logging:
   #  console: "%d  %clr(%5p) ---[%16t] %n"
   #   console: "%d  %clr(%5p) ---[%16t] %c %n"
      console: "%d  %clr(%5p) ---[%16t] %clr(%-40.40c){cyan} %n"
+  file:
+    name: server.log
+  logback:
+    rollingpolicy:
+      max-file-size: 4KB
+      file-name-pattern:  server.%d{yyyy-MM-dd}.%i.log
