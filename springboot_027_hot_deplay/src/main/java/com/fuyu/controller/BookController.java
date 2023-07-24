@@ -33,14 +33,15 @@ public class BookController {
     @PutMapping
     public R update(@RequestBody Book book) {
         System.out.println("----#############??????-------");
+        System.out.println("----#############??????-------");
+        System.out.println("----#############??????-------");
+        System.out.println("----#############??????-------");
         return new R(bookService.updateById(book));
     }
 
     @DeleteMapping("{id}")
     public R delete(@PathVariable Integer id) {
-
         return new R(bookService.removeById(id));
-
     }
 
     @GetMapping("{id}")
@@ -72,6 +73,5 @@ public class BookController {
         }
         return new R(true, page);
     }
-
 
 }
