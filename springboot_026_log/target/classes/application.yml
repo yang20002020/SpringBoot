@@ -1,0 +1,10 @@
+
+logging:
+  pattern:
+  #  console: "%d -%m %n"
+  #  console: "%d  %p %n"
+  #  console: "%d  %clr(%5p) %n"
+  #  console: "%d  %clr(%5p) ---[%t] %n"
+  #  console: "%d  %clr(%5p) ---[%16t] %n"
+  #   console: "%d  %clr(%5p) ---[%16t] %c %n"
+     console: "%d  %clr(%5p) ---[%16t] %clr(%-40.40c){cyan} %n"
