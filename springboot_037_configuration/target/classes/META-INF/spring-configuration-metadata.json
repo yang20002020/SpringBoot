@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "servers",
+      "type": "com.fuyu.config.ServerConfig",
+      "sourceType": "com.fuyu.config.ServerConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "servers.data-size",
+      "type": "org.springframework.util.unit.DataSize",
+      "sourceType": "com.fuyu.config.ServerConfig"
+    },
+    {
+      "name": "servers.ip-address",
+      "type": "java.lang.String",
+      "sourceType": "com.fuyu.config.ServerConfig"
+    },
+    {
+      "name": "servers.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.fuyu.config.ServerConfig"
+    },
+    {
+      "name": "servers.server-time-out",
+      "type": "java.time.Duration",
+      "sourceType": "com.fuyu.config.ServerConfig"
+    },
+    {
+      "name": "servers.timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.fuyu.config.ServerConfig"
+    }
+  ],
+  "hints": []
+}
