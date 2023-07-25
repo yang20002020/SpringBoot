@@ -33,7 +33,7 @@ public class BookController {
     public R update(@RequestBody Book book) {
         System.out.println("----#############??????-------");
         System.out.println("----#############??????-------");
-        System.out.println("----#############??????-------");
+
 
         return new R(bookService.updateById(book));
     }
