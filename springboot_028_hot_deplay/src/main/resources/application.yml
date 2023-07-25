@@ -8,6 +8,10 @@ spring:
       url: jdbc:mysql://localhost:3306/ssm_db?serverTimezone=UTC
       username: root
       password: fendou2017
+  devtools:
+    restart:
+#      不参与热部署的文件或者文件夹
+      exclude: static/**,public/**,config/application.yml
 
 mybatis-plus:
   global-config:
@@ -16,3 +20,4 @@ mybatis-plus:
       id-type: auto
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
