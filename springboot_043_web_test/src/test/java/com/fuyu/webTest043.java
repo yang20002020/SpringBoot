@@ -17,7 +17,7 @@ import org.springframework.test.web.servlet.result.StatusResultMatchers;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 //开启虚拟MVC调用 相当于一个开关
 @AutoConfigureMockMvc
-class webTest041 {
+class webTest043 {
 
     @Test
     void testPort(){
