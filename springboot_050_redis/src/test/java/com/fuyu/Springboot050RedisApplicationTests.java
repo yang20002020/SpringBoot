@@ -22,7 +22,7 @@ class Springboot050RedisApplicationTests {
     @Test
     void get() {
         ValueOperations value = redisTemplate.opsForValue();
-        Object age = value.get("age");
+        Object age = value.get("name");
         System.out.println(age);
     }
 
